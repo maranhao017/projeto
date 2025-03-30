@@ -1,15 +1,12 @@
 package pack3;
 
-import java.util.Date;
 import java.text.DateFormat;
-import java.util.Locale;
 import java.util.Calendar;
+import java.util.Date;
 
 public class TemaData1 {
 
 	public static void main(String[] args) {
-		
-		Locale.setDefault(new Locale ("pt","BR"));
 		
 		DateFormat data = DateFormat.getDateInstance(DateFormat.FULL);
 		
